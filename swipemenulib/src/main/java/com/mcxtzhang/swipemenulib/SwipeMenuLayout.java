@@ -494,7 +494,7 @@ public class SwipeMenuLayout extends ViewGroup {
      */
     private ValueAnimator mExpandAnim, mCloseAnim;
 
-    public boolean isExpand;//代表当前是否是展开状态 2016 11 03 add
+    public boolean isExpand;
 
     public void smoothExpand() {
         //Log.d(TAG, "smoothExpand() called" + this);
